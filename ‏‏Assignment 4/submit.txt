@@ -1,0 +1,7 @@
+Universe=standard
+Executable=Generate_files
+Arguments=$(Process)
+Output=job_$(Process).out.txt
+Error=job_$(Process).error.txt
+Log=log.txt
+Queue 200
